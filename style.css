@@ -1,0 +1,75 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    line-height: 1.42em;
+    color:#A7A1AE;
+    background-color:#1F2739;
+  }
+
+  h1 {
+    font-size:3em; 
+    font-weight: 300;
+    line-height:1em;
+    text-align: center;
+    color: #4DC3FA;
+  }
+
+ 
+  .times th h1 {
+    font-weight: bold;
+    font-size: 1.7em;
+  text-align: center;
+  color: #185875;
+}
+
+.times td {
+    font-weight: normal;
+    font-size: 1.5em;
+  -webkit-box-shadow: 0 2px 2px -2px #0E1119;
+     -moz-box-shadow: 0 2px 2px -2px #0E1119;
+          box-shadow: 0 2px 2px -2px #0E1119;
+}
+
+.times {
+    text-align: center;
+    overflow: hidden;
+    width: 95%;
+    margin: 0 auto;
+    display: table;
+    padding: 1em;
+}
+
+.times td, .times th {
+    padding-bottom: 2em;
+    padding-top: 2em;
+}
+
+/*.times tr td:first-child{
+    text-align: left;
+    padding-left:3em;
+}
+
+/* Background-color of the odd rows */
+.times tr:nth-child(odd) {
+    background-color: #323C50;
+}
+
+/* Background-color of the even rows */
+.times tr:nth-child(even) {
+    background-color: #2C3446;
+}
+
+.times th {
+    background-color: #1F2739;
+}
+
+.times tr:hover {
+    background-color: #464A52;
+ -webkit-box-shadow: 0 6px 6px -6px #0E1119;
+      -moz-box-shadow: 0 6px 6px -6px #0E1119;
+           box-shadow: 0 6px 6px -6px #0E1119;
+ }
+
+ .times td:hover tr:hover{
+    font-weight: bold;
+ }
